@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const EMPLOYEE_API_BASE_URL = "http://mysqlcrudbackendaws-env.eba-r3atrvec.ap-southeast-1.elasticbeanstalk.com/api/v1/";
+const EMPLOYEE_API_BASE_URL = "http://mysqlcrudbackendaws-env.eba-r3atrvec.ap-southeast-1.elasticbeanstalk.com/api/v1";
 
 class EmployeeService {
     getEmployees(){
