@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const EMPLOYEE_API_BASE_URL = "http://crudbackendaws-env.eba-m468qr9f.ap-southeast-1.elasticbeanstalk.com/api/v1/employees";
+const EMPLOYEE_API_BASE_URL = "https://crud-backend-demo.herokuapp.com/api/v1/employees";
 
 class EmployeeService {
     getEmployees(){
